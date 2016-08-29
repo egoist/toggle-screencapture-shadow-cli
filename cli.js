@@ -7,8 +7,7 @@ const cli = cac()
 
 cli
   .usage('toggle-screencapture-shadow [options]')
-  .command('*', 'Toggle the screencapture shadow', input => {
-    const disable = input[0]
+  .command('*', 'Toggle the screencapture shadow', () => {
     toggle((err, disabled) => {
       if (err) {
         console.log(err)
