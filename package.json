@@ -1,6 +1,6 @@
 {
   "name": "toggle-screencapture-shadow-cli",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Toggle shadow of screencapture on macOS via comman-line.",
   "license": "MIT",
   "repository": "egoist/toggle-screencapture-shadow-cli",
